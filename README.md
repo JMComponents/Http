@@ -197,11 +197,3 @@ Feel free to fork this repository and submit pull requests. Please make sure you
 ## License
 
 This library is open-source and available under the [MIT License](LICENSE).
-
-```
-
-```
-
-```
-
-```
