@@ -3,6 +3,8 @@
 ![Packagist Version](https://img.shields.io/packagist/v/jmcomponents/http.svg)
 ![Tests](https://github.com/jmcomponents/http/actions/workflows/ci.yml/badge.svg)
 ![GitHub Release](https://img.shields.io/github/v/release/jmcomponents/http.svg)
+![Packagist Downloads](https://img.shields.io/packagist/dt/jmcomponents/http.svg)
+![Packagist License](https://img.shields.io/packagist/l/jmcomponents/http.svg)
 
 A lightweight PHP library for making HTTP requests. This library provides a simple way to build HTTP requests, set headers, and handle different content types (JSON, XML, Form Data). It uses a fluent interface through a RequestBuilder class to make it easy to create and send requests.
 
