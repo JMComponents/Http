@@ -1,0 +1,28 @@
+{
+    "name": "jmcomponents/http",
+    "description": "Library",
+    "type": "library",
+    "scripts": {
+        "test": "phpunit --colors=always --testdox"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JMComponents\\Http\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*"
+    },
+    "authors": [
+        {
+            "name": "Joshua Mclean",
+            "email": "joshua15mclean@gmail.com"
+        }
+    ]
+}
