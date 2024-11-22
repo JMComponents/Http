@@ -14,7 +14,7 @@
             "JMComponents\\Http\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=8.1",
         "ext-curl": "*"
