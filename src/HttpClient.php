@@ -27,7 +27,7 @@ class HttpClient
             CURLOPT_CUSTOMREQUEST => $request->getMethod(),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HTTPHEADER => $this->formatHeaders($request->getHeaders()),
-            CURLOPT_POSTFIELDS => $request->getMethod() === 'GET' ? null : http_build_query($request->getBody())
+            CURLOPT_POSTFIELDS => $request->getBody()
         ]);
 
         $responseBody = curl_exec($ch);
@@ -57,6 +57,7 @@ class HttpClient
         foreach ($headers as $key => $value) {
             $formatted[] = "$key: $value";
         }
+
         return $formatted;
     }
 }
